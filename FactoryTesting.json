@@ -45,6 +45,15 @@
             "parameter": []
         },
         {
+            "name": "锁车指令",
+            "cmd": "@@IMEI,S302,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711408x3703728804.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+         {
             "name": "找车响铃",
             "cmd": "@@IMEI,S203,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711136x3703728804.png",
@@ -147,16 +156,7 @@
                 }
             ]
         },
-        {
-            "name": "锁车指令",
-            "cmd": "@@IMEI,S302,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711408x3703728804.png",
-            "type": "instructions",
-            "valueNum": 0,
-            "usable": true,
-            "parameter": []
-        },
-        {
+       {
             "name": "震动时蜂鸣器报警是否响的开关",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711476x3703728804.png",
             "cmd": "@@IMEI,S303,TXT0,123,USER&&",
