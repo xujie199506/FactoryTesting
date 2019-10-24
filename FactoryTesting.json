@@ -93,7 +93,7 @@
                     "optionName": []
                 },
                 {
-                    "name": "将要语音的文字",
+                    "name": "将要播报的文字",
                     "type": "TXT",
                     "option": [],
                     "optionName": []
