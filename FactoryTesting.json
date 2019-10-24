@@ -45,7 +45,7 @@
             "parameter": []
         },
         {
-            "name": "锁车指令",
+            "name": "锁车",
             "cmd": "@@IMEI,S302,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711408x3703728804.png",
             "type": "instructions",
