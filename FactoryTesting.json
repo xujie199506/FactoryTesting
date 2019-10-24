@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿{
+=======
+{
+>>>>>>> 01675c6a9b2a56b621d96a7f03aa6048839b7929
     "Success": true,
     "data": [
         {
@@ -201,6 +205,7 @@
             ]
         },
         {
+<<<<<<< HEAD
             "name": "设备轮胎周长",
             "cmd": "@@IMEI,S309,TXT0,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711536x3703728804.png",
@@ -226,6 +231,8 @@
             "parameter": []
         },
         {
+=======
+>>>>>>> 01675c6a9b2a56b621d96a7f03aa6048839b7929
             "name": "设置震动检测",
             "cmd": "@@IMEI,S311,TXT0,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711476x3703728804.png",
@@ -292,6 +299,36 @@
             ]
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "ACC打开",
+            "cmd": "@@IMEI,S326,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711916x3703728804.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "ACC关闭",
+            "cmd": "@@IMEI,S327,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711935x3703728804.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "打开电池仓",
+            "cmd": "@@IMEI,S328,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711952x3703728804.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+>>>>>>> 01675c6a9b2a56b621d96a7f03aa6048839b7929
             "name": "设置蓝牙密码",
             "cmd": "@@IMEI,S317,TXT0,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711735x3703728804.png",
@@ -419,6 +456,7 @@
             "parameter": []
         },
         {
+<<<<<<< HEAD
             "name": "ACC打开",
             "cmd": "@@IMEI,S326,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711916x3703728804.png",
@@ -440,10 +478,35 @@
             "name": "打开电池仓",
             "cmd": "@@IMEI,S328,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711952x3703728804.png",
+=======
+            "name": "设备轮胎周长",
+            "cmd": "@@IMEI,S309,TXT0,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711536x3703728804.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "设备轮胎周长",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "进入出厂模式",
+            "cmd": "@@IMEI,S310,123,USER&&",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/进出厂模式.png",
+>>>>>>> 01675c6a9b2a56b621d96a7f03aa6048839b7929
             "type": "instructions",
             "valueNum": 0,
             "usable": true,
             "parameter": []
         }
     ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 01675c6a9b2a56b621d96a7f03aa6048839b7929
