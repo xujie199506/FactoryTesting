@@ -213,7 +213,7 @@
         {
             "name": "更改心跳时间",
             "cmd": "@@IMEI,S307,TXT0,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711752x3703728804.png",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/心跳.png",
             "type": "setting",
             "valueNum": 1,
             "usable": true,
@@ -229,7 +229,7 @@
         {
             "name": "更改GPS预开启时间",
             "cmd": "@@IMEI,S308,TXT0,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711752x3703728804.png",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/预开.png",
             "type": "setting",
             "valueNum": 1,
             "usable": true,
