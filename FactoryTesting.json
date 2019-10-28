@@ -189,6 +189,60 @@
             ]
         },
         {
+            "name": "更改GPS回报时间",
+            "cmd": "@@IMEI,S304,TXT0,TXT1,123,USER&&",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/GPS回报时间.png",
+            "type": "setting",
+            "valueNum": 2,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "锁车时秒数",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
+                {
+                    "name": "开锁时秒数",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "更改心跳时间",
+            "cmd": "@@IMEI,S307,TXT0,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711752x3703728804.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "心跳时间（秒）",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "更改GPS预开启时间",
+            "cmd": "@@IMEI,S308,TXT0,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711752x3703728804.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "预开启时间（秒）",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
             "name": "设置震动检测",
             "cmd": "@@IMEI,S311,TXT0,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711476x3703728804.png",
@@ -235,7 +289,7 @@
         {
             "name": "设置区域锁可关",
             "cmd": "@@IMEI,S313,TXT0,TXT1,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711697x3703728804.png",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/区域.png",
             "type": "setting",
             "valueNum": 2,
             "usable": true,
@@ -257,7 +311,7 @@
         {
             "name": "查询区域锁模式",
             "cmd": "@@IMEI,S314,123,USER&&",
-            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/区域.png",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/查询区域锁模式.png",
             "type": "instructions",
             "valueNum": 0,
             "usable": true,
