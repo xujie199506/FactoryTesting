@@ -168,7 +168,7 @@
         },
        {
             "name": "震动时蜂鸣器报警是否响的开关",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711476x3703728804.png",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/是否.png",
             "cmd": "@@IMEI,S303,TXT0,123,USER&&",
             "type": "setting",
             "valueNum": 1,
@@ -282,7 +282,7 @@
         {
             "name": "查询锁模式",
             "cmd": "@@IMEI,S319,123,USER&&",
-            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/锁状态.png",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/查询锁模式.png",
             "type": "instructions",
             "valueNum": 0,
             "usable": true,
@@ -323,7 +323,7 @@
         {
             "name": "设置蓝牙桩是否扫描",
             "cmd": "@@IMEI,S322,TXT0,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711811x3703728804.png",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/是否.png",
             "type": "setting",
             "valueNum": 1,
             "usable": true,
