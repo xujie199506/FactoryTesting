@@ -2,40 +2,6 @@
     "Success": true,
     "data": [
         {
-            "name": "重启设备",
-            "cmd": "@@IMEI,S900,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571710671x3661913030.png",
-            "type": "instructions",
-            "valueNum": 0,
-            "usable": true,
-            "parameter": []
-        },
-        {
-            "name": "远程升级",
-            "cmd": "@@IMEI,S200,TXT0,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571710997x3703728804.png",
-            "type": "setting",
-            "valueNum": 1,
-            "usable": true,
-            "parameter": [
-                {
-                    "name": "文件url地址",
-                    "type": "TXT",
-                    "option": [],
-                    "optionName": []
-                }
-            ]
-        },
-        {
-            "name": "获取锁状态",
-            "cmd": "@@IMEI,S201,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711050x3661913030.png",
-            "type": "instructions",
-            "valueNum": 0,
-            "usable": true,
-            "parameter": []
-        },
-        {
             "name": "开锁",
             "cmd": "@@IMEI,S202,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711084x3703728804.png",
@@ -53,10 +19,54 @@
             "usable": true,
             "parameter": []
         },
+        {
+            "name": "ACC打开",
+            "cmd": "@@IMEI,S326,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711916x3703728804.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "ACC关闭",
+            "cmd": "@@IMEI,S327,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711935x3703728804.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "打开电池仓",
+            "cmd": "@@IMEI,S328,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711952x3703728804.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
          {
-            "name": "找车响铃",
+            "name": "响铃找车",
             "cmd": "@@IMEI,S203,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711136x3703728804.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "获取锁状态",
+            "cmd": "@@IMEI,S201,123,USER&&",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/锁状态.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        }, {
+            "name": "重启设备",
+            "cmd": "@@IMEI,S900,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571710671x3661913030.png",
             "type": "instructions",
             "valueNum": 0,
             "usable": true,
@@ -179,28 +189,6 @@
             ]
         },
         {
-            "name": "更改GPS回报时间",
-            "cmd": "@@IMEI,S304,TXT0,TXT1,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711505x3703728804.png",
-            "type": "setting",
-            "valueNum": 2,
-            "usable": true,
-            "parameter": [
-                {
-                    "name": "锁车时秒",
-                    "type": "TXT",
-                    "option": [],
-                    "optionName": []
-                },
-                {
-                    "name": "开锁时秒",
-                    "type": "TXT",
-                    "option": [],
-                    "optionName": []
-                }
-            ]
-        },
-        {
             "name": "设置震动检测",
             "cmd": "@@IMEI,S311,TXT0,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711476x3703728804.png",
@@ -267,36 +255,18 @@
             ]
         },
         {
-            "name": "ACC打开",
-            "cmd": "@@IMEI,S326,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711916x3703728804.png",
+            "name": "查询区域锁模式",
+            "cmd": "@@IMEI,S314,123,USER&&",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/区域.png",
             "type": "instructions",
             "valueNum": 0,
             "usable": true,
             "parameter": []
         },
         {
-            "name": "ACC关闭",
-            "cmd": "@@IMEI,S327,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711935x3703728804.png",
-            "type": "instructions",
-            "valueNum": 0,
-            "usable": true,
-            "parameter": []
-        },
-        {
-            "name": "打开电池仓",
-            "cmd": "@@IMEI,S328,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711952x3703728804.png",
-            "type": "instructions",
-            "valueNum": 0,
-            "usable": true,
-            "parameter": []
-        },
-        {
-            "name": "设置蓝牙密码",
-            "cmd": "@@IMEI,S317,TXT0,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711735x3703728804.png",
+            "name": "设置蓝牙秘钥",
+            "cmd": "@@IMEI,S318,TXT0,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571711752x3703728804.png",
             "type": "setting",
             "valueNum": 1,
             "usable": true,
@@ -310,31 +280,24 @@
             ]
         },
         {
-            "name": "设置蓝牙秘钥",
-            "cmd": "@@IMEI,S318,TXT0,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711752x3703728804.png",
-            "type": "setting",
-            "valueNum": 1,
+            "name": "查询锁模式",
+            "cmd": "@@IMEI,S319,123,USER&&",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/锁状态.png",
+            "type": "instructions",
+            "valueNum": 0,
             "usable": true,
-            "parameter": [
-                {
-                    "name": "蓝牙锁秘钥",
-                    "type": "TXT",
-                    "option": [],
-                    "optionName": []
-                }
-            ]
+            "parameter": []
         },
         {
-            "name": "设置蓝牙桩参数【扫描时长】",
+            "name": "设置蓝牙扫描时长",
             "cmd": "@@IMEI,S320,TXT0,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711811x3703728804.png",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/设置蓝牙桩参数（扫描时长）.png",
             "type": "setting",
             "valueNum": 1,
             "usable": true,
             "parameter": [
                 {
-                    "name": "秒",
+                    "name": "扫描时长",
                     "type": "TXT",
                     "option": [],
                     "optionName": []
@@ -342,7 +305,7 @@
             ]
         },
         {
-            "name": "设置蓝牙桩参数【扫描间隔】",
+            "name": "设置蓝牙桩扫描间隔",
             "cmd": "@@IMEI,S321,TXT0,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711811x3703728804.png",
             "type": "setting",
@@ -358,23 +321,7 @@
             ]
         },
         {
-            "name": "设置蓝牙秘钥",
-            "cmd": "@@IMEI,S318,TXT0,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711752x3703728804.png",
-            "type": "setting",
-            "valueNum": 1,
-            "usable": true,
-            "parameter": [
-                {
-                    "name": "蓝牙锁密码",
-                    "type": "TXT",
-                    "option": [],
-                    "optionName": []
-                }
-            ]
-        },
-        {
-            "name": "设置蓝牙桩参数【是否扫描】",
+            "name": "设置蓝牙桩是否扫描",
             "cmd": "@@IMEI,S322,TXT0,123,USER&&",
             "imgUrl": "http://chuantu.xyz/t6/702/1571711811x3703728804.png",
             "type": "setting",
@@ -396,7 +343,7 @@
             ]
         },
         {
-            "name": "设置蓝牙桩参数【设置蓝牙桩名称】",
+            "name": "设置蓝牙桩名称",
             "cmd": "@@IMEI,S323,TXT0,123,USER&&",
             "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/%E8%93%9D%E7%89%99%E6%A1%A9%E5%90%8D%E7%A7%B0.png",
             "type": "setting",
@@ -412,13 +359,38 @@
             ]
         },
         {
-            "name": "下发扫描蓝牙桩指令",
-            "cmd": "@@IMEI,S325,123,USER&&",
-            "imgUrl": "http://chuantu.xyz/t6/702/1571711811x3703728804.png",
+            "name": "查询蓝牙桩参数",
+            "cmd": "@@IMEI,S324,123,USER&&",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/参数.png",
             "type": "instructions",
             "valueNum": 0,
             "usable": true,
             "parameter": []
+        },
+		 {
+            "name": "下发扫描蓝牙桩指令",
+            "cmd": "@@IMEI,S325,123,USER&&",
+            "imgUrl": "https://raw.githubusercontent.com/xujie199506/FactoryTesting/master/drawable-hdpi/蓝牙桩指令.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "远程升级",
+            "cmd": "@@IMEI,S200,TXT0,123,USER&&",
+            "imgUrl": "http://chuantu.xyz/t6/702/1571710997x3703728804.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "文件url地址",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
         },
         {
             "name": "设备轮胎周长",
